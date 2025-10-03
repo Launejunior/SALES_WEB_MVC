@@ -12,10 +12,10 @@ namespace SALES_WEB_MVC.Models
 
         public SalesRecorde() { }
 
-        public SalesRecorde(int id, DateTime data, double amountQuantidade, 
+        public SalesRecorde(DateTime data, double amountQuantidade, 
             SalesStatus status, SellerVendedor sellerVendedor)
         {
-            Id = id;
+            
             Data = data;
             AmountQuantidade = amountQuantidade;
             Status = status;

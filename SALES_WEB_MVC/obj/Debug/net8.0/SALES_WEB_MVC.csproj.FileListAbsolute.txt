@@ -260,3 +260,4 @@ C:\Users\USER\Documents\FullStack\Asp_Net\ProjetoC#\SALES_WEB_MVC\SALES_WEB_MVC\
 C:\Users\USER\Documents\FullStack\Asp_Net\ProjetoC#\SALES_WEB_MVC\SALES_WEB_MVC\obj\Debug\net8.0\SALES_WEB_MVC.pdb
 C:\Users\USER\Documents\FullStack\Asp_Net\ProjetoC#\SALES_WEB_MVC\SALES_WEB_MVC\obj\Debug\net8.0\SALES_WEB_MVC.genruntimeconfig.cache
 C:\Users\USER\Documents\FullStack\Asp_Net\ProjetoC#\SALES_WEB_MVC\SALES_WEB_MVC\obj\Debug\net8.0\ref\SALES_WEB_MVC.dll
+C:\Users\USER\Documents\FullStack\Asp_Net\ProjetoC#\SALES_WEB_MVC\SALES_WEB_MVC\obj\Debug\net8.0\SALES_WEB_MVC.sourcelink.json

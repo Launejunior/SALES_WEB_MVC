@@ -13,10 +13,10 @@
 
         public SellerVendedor() { }
 
-        public SellerVendedor(int id, string? nome, string? email, 
+        public SellerVendedor(string? nome, string? email, 
             DateTime dataNascimento, double baseSalário, Departamento departamento)
         {
-            Id = id;
+           
             Nome = nome;
             Email = email;
             DataNascimento = dataNascimento;

@@ -6,11 +6,24 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SALES_WEB_MVC.Migrations
 {
     /// <inheritdoc />
-    public partial class DbSalesRecord : Migration
+    public partial class DbNova : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Departamento",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Departamento", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "SellerVendedores",
                 columns: table => new
@@ -75,6 +88,9 @@ namespace SALES_WEB_MVC.Migrations
 
             migrationBuilder.DropTable(
                 name: "SellerVendedores");
+
+            migrationBuilder.DropTable(
+                name: "Departamento");
         }
     }
 }

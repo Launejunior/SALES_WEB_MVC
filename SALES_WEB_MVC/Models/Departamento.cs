@@ -1,4 +1,6 @@
-﻿
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SALES_WEB_MVC.Models
 {
@@ -12,9 +14,9 @@ namespace SALES_WEB_MVC.Models
 
         public Departamento() { }
 
-        public Departamento(int id, string? nome)
+        public Departamento(string? nome)
         {
-            Id = id;
+          
             Nome = nome;
         }
 

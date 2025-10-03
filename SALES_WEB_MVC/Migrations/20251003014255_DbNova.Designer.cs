@@ -12,8 +12,8 @@ using SALES_WEB_MVC.Data;
 namespace SALES_WEB_MVC.Migrations
 {
     [DbContext(typeof(SALES_WEB_MVCContext))]
-    [Migration("20251002010103_DbSalesRecord")]
-    partial class DbSalesRecord
+    [Migration("20251003014255_DbNova")]
+    partial class DbNova
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
